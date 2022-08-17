@@ -9,7 +9,7 @@ state = {
 };
 
 handleCangeInput = ({target: {value, name}}) => {
-    this.setStaye({[name]: value})
+    this.setState({[name]: value})
 }
 
 handelSubmit = (e) => {
